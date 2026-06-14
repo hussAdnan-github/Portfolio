@@ -9,22 +9,22 @@ interface PortfolioProps {
 
 const projects = [
   {
-    title: { en: 'Vanguard Nexus', ar: 'رابطة فانجارد' },
+    title: { en: 'SmartStock', ar: 'SmartStock' },
     tags: ['NEXT.JS', 'THREE.JS'],
-    image: 'https://picsum.photos/seed/p1/600/400',
-    desc: { en: 'Immersive 3D data visualization for global shipping logistics.', ar: 'تصور بيانات ثلاثي الأبعاد غامر للوجستيات الشحن العالمية.' }
+    image: '/public/smart.jpg',
+    desc: { en: 'Immersive 3D data visualization for global shipping logistics.', ar: 'الحصول على الميدالية الذهبية في مسابقة ICEBIV 2025 المقامة في ماليزيا بمشروع SmartStock' }
   },
   {
-    title: { en: 'Cosmos Portal', ar: 'بوابة كوزموس' },
+    title: { en: 'ALLS', ar: 'ALLS' },
     tags: ['GRAPHQL', 'REACT'],
-    image: 'https://picsum.photos/seed/p2/600/400',
-    desc: { en: 'A headless commerce platform designed for extreme performance.', ar: 'منصة تجارة إلكترونية بدون واجهة (Headless) مصممة للأداء الفائق.' }
+    image: '/public/alls.jpg',
+    desc: { en: 'A headless commerce platform designed for extreme performance.', ar: 'الحصول على الميدالية الفضية في مسابقة ICIIC 2024 المقامة في ماليزيا بمشروع ALLS' }
   },
   {
-    title: { en: 'Cyber Shield', ar: 'الدرع السيبراني' },
+    title: { en: 'Cyber Shield', ar: 'تبني الذكاء الاصطناعي في التعليم : التحديات و الفرص' },
     tags: ['RUST', 'WEBASSEMBLY'],
-    image: 'https://picsum.photos/seed/p3/600/400',
-    desc: { en: 'Enterprise-grade security dashboard featuring predictive threat analysis.', ar: 'لوحة تحكم أمنية على مستوى المؤسسات تتميز بتحليل التهديدات التنبؤي.' }
+    image: '/public/ai.jpg',
+    desc: { en: 'Enterprise-grade security dashboard featuring predictive threat analysis.', ar: 'المؤتمر الدولي السابع الذي نظمتة أكاديمية المعرفة الدولية.' }
   }
 ];
 
@@ -59,7 +59,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ lang }) => {
               <img
                 src={project.image}
                 alt={project.title[lang]}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full  transition-transform duration-500 group-hover:scale-110"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-brand-dark/20 group-hover:bg-transparent transition-colors" />

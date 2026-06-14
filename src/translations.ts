@@ -1,6 +1,6 @@
 export type Language = 'en' | 'ar';
 
-export const translations = {
+export const translations = { 
   en: {
     nav: {
       work: 'Work',
@@ -15,7 +15,7 @@ export const translations = {
       hero: {
         badge: 'SCHOLARLY PURSUITS',
         title: 'Academic Journey & Research',
-        subtitle: 'Exploring the intersection of advanced computation and human-centric design through rigorous academic inquiry.',
+        subtitle: 'Integrating advanced artificial intelligence theories with scientific research to create smart solutions that address real-world challenges.',
         backHome: 'BACK TO HOME',
       },
       postgrad: {
@@ -122,14 +122,13 @@ export const translations = {
     },
     hero: {
       badge: 'AVAILABLE FOR PROJECTS',
-      title: 'Crafting Digital Haute Couture.',
-      subtitle: 'Senior Full-Stack Architect specializing in high-end editorial interfaces and performant cloud ecosystems.',
-      viewPortfolio: 'View Portfolio',
+      title: 'Hussain Adnan Ali Belfaqih',
+      subtitle: 'A software engineer specializing in front-end development, my career path combines technological innovation in the job market with academic depth. I currently work as a freelance front-end developer, transforming complex ideas into interactive user experiences. Simultaneously, I pursue my passion for education as a lecturer at the College of Engineering and Science at Al-Ahgaff University. As a master\'s student, I dedicate my time to solving complex programming problems using multiple programming languages, striving to bridge the gap between scientific research and practical application in the world of programming.',  viewPortfolio: 'About Me',
       theProcess: 'The Process',
     },
     philosophy: {
-      title: 'The Philosophy',
-      description1: "Design is not just what it looks like; it's how it feels in the hand. I approach every line of code as a stitch in a bespoke garment—intentional, durable, and precise.",
+      title: 'Experiences',
+      description1: "Front-end developer (Web & Mobile) with experience building modern applications using HTML, CSS, and JavaScript, as well as React, Next.js, and TailwindCSS. I have experience developing mobile applications using Flutter and Dart, with a strong focus on UI/UX design using tools like Figma and Adobe XD, in addition to working with Adobe Creative Cloud.",
       description2: "With over 8 years in the industry, I have bridged the gap between raw technical infrastructure and pixel-perfect aesthetics for global brands.",
       architecture: {
         title: 'Architecture',
@@ -137,13 +136,13 @@ export const translations = {
       },
       curation: {
         title: 'Curation',
-        desc: 'Visual storytelling that commands attention.',
+        desc: 'Take care of the user experience and satisfaction.',
       },
       coreArsenal: 'CORE ARSENAL',
     },
     portfolio: {
       badge: 'SELECTED WORKS',
-      title: 'The Portfolio',
+      title: '',
       subtitle: 'A collection of experiments, case studies, and digital flagship stores.',
       viewCase: 'CASE STUDY',
       liveDemo: 'LIVE DEMO',
@@ -152,30 +151,34 @@ export const translations = {
     experience: {
       title: 'Curated Experience',
       present: 'PRESENT',
-      roles: [
-        {
-          title: 'Principal Architect',
-          company: 'AETHER DIGITAL',
-          period: '2021 — PRESENT',
-          desc: 'Leading design system migration and micro-frontend orchestration for Fortune 500 fintech clients.',
-        },
-        {
-          title: 'Senior UI Designer',
-          company: 'VORTEX LABS',
-          period: '2018 — 2021',
-          desc: 'Pioneered a design-to-code workflow reducing production hand-off time by 45%.',
-        },
-        {
-          title: 'Full Stack Developer',
-          company: 'LAUNCHPAD STUDIOS',
-          period: '2016 — 2018',
-          desc: 'Full-cycle development of 15+ high-growth startup MVPs using React and Node.js.',
-        },
-      ],
+    roles: [
+  {
+    title: 'Freelance Front-End Developer',
+    company: 'Freelance',
+    period: '2025 - Present',
+    desc: 'Developing tailored front-end solutions and interactive dashboards for diverse clients, with a strong focus on high performance, clean code, and engaging user experiences.',
+    links: [
+      { label: 'Mega Power', url: 'https://www.megapower.energy/ar' },
+      { label: 'Student Care Charitable Fund', url: 'https://bffosproject.vercel.app/' },
+      { label: 'BTS Electronics', url: 'https://bates-tau.vercel.app/' },      
+    ]
+  },
+  {
+    title: 'Part-Time Web Developer & UI Designer',
+    company: 'Obar',
+    period: '2024 — 2025',
+    desc: 'Designing and developing high-fidelity prototypes and web applications for startups and enterprises using Figma, React, and Next.js.',
+    links: [
+      { label: 'Wyfadah', url: 'https://www.wyfadah.com/' },
+      { label: 'Arooud', url: 'https://arooud.vercel.app/' },
+      { label: 'Matjirukum', url: 'https://www.matjirukum.com/' },      
+    ]
+  },
+] 
     },
     contact: {
       title: 'Start a Conversation',
-      subtitle: "Currently accepting select high-impact projects for Q3/Q4. Let's build something enduring.",
+      subtitle: "Do you have a project idea that you would like to turn into reality? Or are you looking for a front-end developer to join your team? Or maybe you just want to discuss a technical or academic topic? I'm always happy to communicate and exchange ideas. Send me a message and I will respond to you as soon as possible!",
       name: 'NAME',
       email: 'EMAIL',
       projectVision: 'PROJECT VISION',
@@ -190,7 +193,7 @@ export const translations = {
     nav: {
       work: 'العمل',
       about: 'عني',
-      experience: 'الخبرة',
+      experience: 'ملف اعمال',
       testimonials: 'التوصيات',
       contact: 'اتصل بنا',
       hireMe: 'وظفني',
@@ -200,7 +203,7 @@ export const translations = {
       hero: {
         badge: 'المساعي العلمية',
         title: 'الرحلة الأكاديمية والبحثية',
-        subtitle: 'استكشاف تقاطع الحوسبة المتقدمة والتصميم المتمحور حول الإنسان من خلال البحث الأكاديمي الصارم.',
+        subtitle: 'دمج النظريات المتقدمة للذكاء الاصطناعي بالبحث العلمي لابتكار حلول ذكية تواجه تحديات العالم الحقيقي',
         backHome: 'العودة للرئيسية',
       },
       postgrad: {
@@ -307,60 +310,64 @@ export const translations = {
     },
     hero: {
       badge: 'متاح للمشاريع',
-      title: 'صناعة الأزياء الرقمية الراقية.',
-      subtitle: 'مهندس برمجيات خبير متخصص في الواجهات عالية الجودة والأنظمة السحابية عالية الأداء.',
-      viewPortfolio: 'عرض المحفظة',
+      title: 'حسين عدنان علي بلفقيه',
+      subtitle:  'مهندس برمجيات متخصص في تطوير الواجهات الأمامية، أجمع في مساري المهني بين الابتكار التقني في سوق العمل والعمق الأكاديمي. أعمل حالياً مطور واجهات أمامية كعمل حر، حيث أحول الأفكار المعقدة إلى تجارب مستخدم تفاعلية. بالتوازي مع ذلك، أمارس شغفي بالتعليم كمحاضر في كلية الهندسة والعلوم بجامعة الأحقاف. وبصفتي طالباً في الماجستير، أكرس وقتي لحل المشكلات البرمجية المعقدة باستخدام لغات برمجة متعددة، ساعياً لردم الفجوة بين البحث العلمي والتطبيق العملي في عالم البرمجة',
+      viewPortfolio: 'من أنا',
       theProcess: 'العملية',
     },
     philosophy: {
-      title: 'الفلسفة',
-      description1: "التصميم ليس فقط ما تراه أو تشعر به، بل هو كيف تعمل الأشياء بدقة. أتعامل مع كل سطر برمجي كغرزة في قطعة ملابس مفصلة—مقصودة، متينة ودقيقة.",
+      title: 'المـــهارات',
+      description1: "مطوّر واجهات أمامية (Web & Mobile) بخبرة في بناء تطبيقات حديثة باستخدام HTML وCSS وJavaScript، بالإضافة إلى React وNext.js وTailwindCSS. أمتلك خبرة في تطوير تطبيقات الموبايل باستخدام Flutter وDart، مع اهتمام قوي بتصميم واجهات المستخدم وتجربة المستخدم باستخدام أدوات مثل Figma وAdobe XD، إلى جانب العمل على برامج Adobe Creative Cloud.",
       description2: "مع أكثر من 8 سنوات في الصناعة، قمت بسد الفجوة بين البنية التحتية التقنية الخام والجماليات المثالية للبكسل للعلامات التجارية العالمية.",
       architecture: {
-        title: 'المعمارية',
+        title: 'مطور',
         desc: 'أنظمة معيارية قابلة للتوسع ومصممة للتطور.',
       },
       curation: {
-        title: 'التقييم',
-        desc: 'سرد قصصي بصري يستحوذ على الانتباه.',
+        title: 'مصمم',
+        desc: 'اعتني بتجربة و رضاء المستخدم .',
       },
-      coreArsenal: 'الترسانة الأساسية',
+      coreArsenal: 'التقــنيات الأساسية',
     },
     portfolio: {
       badge: 'أعمال مختارة',
-      title: 'المعرض',
-      subtitle: 'مجموعة من التجارب، ودراسات الحالة والمتاجر الرقمية الرائدة.',
+      title: 'مشاركاتي',
+      subtitle: 'مجموعة من التجارب، ودراسات الحالة والمتاجر الرقمية ال>رائدة.',
       viewCase: 'دراسة حالة',
       liveDemo: 'تجربة مباشرة',
       github: 'جيت هاب',
     },
     experience: {
-      title: 'الخبرة المنسقة',
+      title: 'ملف اعمال',
       present: 'الآن',
       roles: [
         {
-          title: 'مهندس برمجيات رئيسي',
-          company: 'AETHER DIGITAL',
-          period: '2021 — الآن',
-          desc: 'قيادة ترحيل نظام التصميم وتنظيم الواجهات المصغرة لعملاء التكنولوجيا المالية في قائمة Fortune 500.',
+          title: 'Front End Developer',
+          company: 'عمل حر',
+          period: 'الآن - 2025',
+          desc: 'تطوير واجهات أمامية مخصصة لعملاء في القطاعات المختلفة وكذلك انشاء لوحات التحكم مع التركيز على الأداء العالي والتصميم الجذاب.',
+           links : [
+           { label: 'ميقاباور', url: 'https://www.megapower.energy/ar' },
+           { label: 'الصندوق الخيري لرعاية الطالب', url: 'https://bffosproject.vercel.app/' },
+           { label: 'BTS فدفي و يوقرين للاكترونيات', url: 'https://bates-tau.vercel.app/' },      
+          ]
         },
         {
-          title: 'مصمم واجهات أقدم',
-          company: 'VORTEX LABS',
-          period: '2018 — 2021',
-          desc: 'ابتكار سير عمل من التصميم إلى الكود مما قلل من وقت تسليم الإنتاج بنسبة 45%.',
-        },
-        {
-          title: 'مطور ويب شامل',
-          company: 'LAUNCHPAD STUDIOS',
-          period: '2016 — 2018',
-          desc: 'تطوير شامل لأكثر من 15 نموذجاً أولياً لشركات ناشئة عالية النمو باستخدام React و Node.js.',
+          title: 'مطور ويب لشركة partTime و مصمم واجهات',
+          company: 'Obar',
+          period: '2024 — 2025',
+          desc: 'تطويرو تثمبم نموذج أولية لشركات و مؤسسات باستخدام React Next.js and figma.',
+       links : [
+           { label: 'وفادة', url: 'https://www.wyfadah.com/' },
+           { label: 'عروض', url: 'https://arooud.vercel.app/' },
+            { label: 'متجركم', url: 'https://www.matjirukum.com/' },      
+          ]
         },
       ],
     },
     contact: {
       title: 'ابدأ محادثة',
-      subtitle: "أقبل حالياً مشاريع مختارة عالية التأثير للربع الثالث والرابع. دعنا نبني شيئاً باقياً.",
+      subtitle: "هل لديك فكرة مشروع ترغب في تحويلها إلى واقع؟ أو تبحث عن مطور واجهات أمامية ينضم لفريقك؟ أو ربما ترغب فقط في مناقشة موضوع تقني أو أكاديمي؟ يسعدني دائماً التواصل وتبادل الأفكار. أرسل لي رسالة وسأرد عليك في أقرب وقت ممكن!",
       name: 'الاسم',
       email: 'البريد الإلكتروني',
       projectVision: 'رؤية المشروع',

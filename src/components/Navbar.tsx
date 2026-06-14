@@ -20,7 +20,7 @@ export const Navbar: React.FC<NavbarProps> = ({ lang, setLang, currentPage, setC
           onClick={() => setCurrentPage('portfolio')}
           className="text-xl font-bold tracking-tighter hover:text-brand-blue transition-colors"
         >
-          {lang === 'en' ? 'Obsidian Gallery' : 'معرض أوبسيديان'}
+          {lang === 'en' ? 'Obsidian Gallery' : 'موقع تعريفي'}
         </button>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-400">

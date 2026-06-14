@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Language, translations } from '../translations';
-import { Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
 
 interface ContactProps {
   lang: Language;
@@ -24,13 +24,19 @@ export const Contact: React.FC<ContactProps> = ({ lang }) => {
               <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center">
                 <Mail size={18} className="text-brand-blue" />
               </div>
-              <span className="font-medium">hello@obsidiangallery.com</span>
+              <span className="font-medium">hussbelf2@gmail.com</span>
             </div>
             <div className="flex items-center gap-4 text-gray-400 hover:text-white transition-colors">
               <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center">
                 <MapPin size={18} className="text-brand-blue" />
               </div>
               <span className="font-medium">{t.location}</span>
+            </div>
+             <div className="flex items-center gap-4 text-gray-400 hover:text-white transition-colors">
+              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center">
+                <Phone size={18} className="text-brand-blue" />
+              </div>
+              <span className="font-medium"> 794 776 779 967+ - 026 410 736 967+</span>
             </div>
           </div>
         </div>

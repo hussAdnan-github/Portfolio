@@ -62,7 +62,7 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
       </section>
 
       {/* Studies & Publications */}
-      <section className="py-24 px-6 max-w-7xl mx-auto grid md:grid-cols-12 gap-16">
+      {/* <section className="py-24 px-6 max-w-7xl mx-auto grid md:grid-cols-12 gap-16">
         <div className="md:col-span-4 space-y-12">
           <h2 className="text-4xl font-bold">{t.postgrad.title}</h2>
           
@@ -104,10 +104,10 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Thesis Spotlight */}
-      <section className="py-24 px-6 max-w-7xl mx-auto">
+      {/* <section className="py-24 px-6 max-w-7xl mx-auto">
         <div className="bg-brand-card border border-white/5 rounded-[40px] overflow-hidden grid md:grid-cols-2 items-center">
           <div className="p-12 md:p-20 space-y-8">
             <div className="text-orange-400 text-[10px] font-bold tracking-widest">{t.thesis.badge}</div>
@@ -134,10 +134,10 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Teaching Portfolio */}
-      <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
+      {/* <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div>
             <div className="text-[10px] font-bold tracking-widest text-brand-blue mb-4">{t.teaching.badge}</div>
@@ -178,10 +178,10 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Achievements */}
-      <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
+      {/* <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
         <div className="text-center mb-16">
           <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-4 uppercase">Competitive Achievements</div>
         </div>
@@ -199,10 +199,10 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Speaking */}
-      <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
+      {/* <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
         <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-12 uppercase">Conferences & Speaking</div>
         <div className="grid md:grid-cols-3 gap-8">
           {t.speaking.items.map((item, i) => (
@@ -220,10 +220,10 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Skills Footer */}
-      <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5 grid md:grid-cols-2 gap-20">
+      {/* <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5 grid md:grid-cols-2 gap-20">
         <div>
           <h3 className="text-2xl font-bold mb-8 flex items-center gap-3">
             <div className="w-1 h-8 bg-brand-blue" />
@@ -250,7 +250,7 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

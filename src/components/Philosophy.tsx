@@ -12,8 +12,8 @@ const arsenal = [
   { name: 'REACT', icon: '⚛️' },
   { name: 'TAILWIND', icon: 'CSS' },
   { name: 'POSTGRESQL', icon: 'DB' },
-  { name: 'AWS', icon: '☁️' },
-  { name: 'NODE.JS', icon: '📦' },
+  { name: 'NextJs', icon: '👨‍💻' },
+  { name: 'Figma', icon: '📦' },
 ];
 
 export const Philosophy: React.FC<PhilosophyProps> = ({ lang }) => {
@@ -26,7 +26,7 @@ export const Philosophy: React.FC<PhilosophyProps> = ({ lang }) => {
           <h2 className="text-4xl font-bold mb-10">{t.title}</h2>
           <div className="space-y-6 text-gray-400 leading-relaxed">
             <p>{t.description1}</p>
-            <p>{t.description2}</p>
+            {/* <p>{t.description2}</p> */}
           </div>
 
           <div className="grid grid-cols-2 gap-8 mt-12">
