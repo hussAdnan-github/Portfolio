@@ -5,7 +5,6 @@ import { Language, translations } from '../translations';
 interface HeroProps {
   lang: Language;
 }
-
 export const Hero: React.FC<HeroProps> = ({ lang }) => {
   const t = translations[lang].hero;
 
