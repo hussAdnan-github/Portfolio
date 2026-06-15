@@ -62,7 +62,7 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
       </section>
 
       {/* Studies & Publications */}
-      {/* <section className="py-24 px-6 max-w-7xl mx-auto grid md:grid-cols-12 gap-16">
+      <section className="py-24 px-6 w-full mx-auto grid  ">
         <div className="md:col-span-4 space-y-12">
           <h2 className="text-4xl font-bold">{t.postgrad.title}</h2>
           
@@ -80,7 +80,7 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
           </div>
         </div>
 
-        <div className="md:col-span-8 space-y-12">
+        {/* <div className="md:col-span-8 space-y-12">
           <div className="flex justify-between items-end">
             <h2 className="text-[10px] font-bold tracking-widest text-gray-500">{t.publications.title}</h2>
           </div>
@@ -103,11 +103,11 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
               </motion.div>
             ))}
           </div>
-        </div>
-      </section> */}
+        </div> */}
+      </section>
 
       {/* Thesis Spotlight */}
-      {/* <section className="py-24 px-6 max-w-7xl mx-auto">
+      <section className="py-24 px-6 max-w-7xl mx-auto">
         <div className="bg-brand-card border border-white/5 rounded-[40px] overflow-hidden grid md:grid-cols-2 items-center">
           <div className="p-12 md:p-20 space-y-8">
             <div className="text-orange-400 text-[10px] font-bold tracking-widest">{t.thesis.badge}</div>
@@ -116,14 +116,14 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
               {t.thesis.desc}
             </p>
             <div className="flex gap-12 pt-8">
-              <div>
+              {/* <div>
                 <div className="text-3xl font-bold text-brand-blue">{t.thesis.grade}</div>
                 <div className="text-[10px] font-bold text-gray-500 tracking-widest mt-1">{t.thesis.gradeLabel}</div>
-              </div>
-              <div>
+              </div> */}
+              {/* <div>
                 <div className="text-3xl font-bold text-brand-blue">{t.thesis.rank}</div>
                 <div className="text-[10px] font-bold text-gray-500 tracking-widest mt-1">{t.thesis.rankLabel}</div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="aspect-square bg-white/5 p-12">
@@ -134,11 +134,16 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
             />
           </div>
         </div>
-      </section> */}
+      </section>
 
-      {/* Teaching Portfolio */}
-      {/* <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+     
+
+      {/* Achievements */}
+       
+
+      {/* Speaking */}
+      <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
+           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div>
             <div className="text-[10px] font-bold tracking-widest text-brand-blue mb-4">{t.teaching.badge}</div>
             <h2 className="text-5xl font-bold">{t.teaching.title}</h2>
@@ -147,62 +152,6 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
             {t.teaching.subtitle}
           </p>
         </div>
-
-        <div className="grid md:grid-cols-3 gap-8">
-          {t.teaching.courses.map((course, i) => (
-            <div key={i} className="bg-brand-card border border-white/5 p-8 rounded-3xl">
-              <GraduationCap className="text-brand-blue mb-6" size={32} />
-              <h3 className="text-xl font-bold mb-2">{course.title}</h3>
-              <div className="text-[10px] font-bold text-gray-500 tracking-widest mb-6">{course.uni}</div>
-              <ul className="space-y-3">
-                {course.items.map((item, j) => (
-                  <li key={j} className="text-sm text-gray-400 flex items-center gap-2">
-                    <div className="w-1 h-1 bg-brand-blue rounded-full" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-          <div className="bg-brand-card border border-white/5 p-8 rounded-3xl flex flex-col justify-between">
-            <Quote className="text-brand-blue mb-6" size={32} />
-            <p className="text-lg text-gray-300 italic leading-relaxed mb-8">
-              {t.teaching.testimonial.quote}
-            </p>
-            <div className="flex items-center gap-4">
-              <div className="w-10 h-10 rounded-full bg-white/10" />
-              <div>
-                <div className="text-sm font-bold">{t.teaching.testimonial.author}</div>
-                <div className="text-[10px] font-bold text-gray-500 tracking-widest">{t.teaching.testimonial.role}</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      {/* Achievements */}
-      {/* <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
-        <div className="text-center mb-16">
-          <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-4 uppercase">Competitive Achievements</div>
-        </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          {t.achievements.items.map((item, i) => (
-            <div key={i} className="text-center space-y-4">
-              <div className="w-16 h-16 rounded-full bg-white/5 border border-white/10 flex items-center justify-center mx-auto text-orange-400">
-                <Microscope size={24} />
-              </div>
-              <div>
-                <div className="text-xs text-gray-500 font-bold tracking-widest mb-1">{item.title}</div>
-                <div className="text-xl font-bold">{item.value}</div>
-                <div className="text-[10px] text-gray-600 mt-1">{item.year}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section> */}
-
-      {/* Speaking */}
-      {/* <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
         <div className="text-[10px] font-bold tracking-widest text-gray-500 mb-12 uppercase">Conferences & Speaking</div>
         <div className="grid md:grid-cols-3 gap-8">
           {t.speaking.items.map((item, i) => (
@@ -220,7 +169,7 @@ export const Academic: React.FC<AcademicProps> = ({ lang, onBack }) => {
             </div>
           ))}
         </div>
-      </section> */}
+      </section>
 
       {/* Skills Footer */}
       {/* <section className="py-24 px-6 max-w-7xl mx-auto border-t border-white/5 grid md:grid-cols-2 gap-20">

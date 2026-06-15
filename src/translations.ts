@@ -14,20 +14,20 @@ export const translations = {
     academic: {
       hero: {
         badge: 'SCHOLARLY PURSUITS',
-        title: 'Academic Journey & Research',
+        title: 'Academic Journey & Research', 
         subtitle: 'Integrating advanced artificial intelligence theories with scientific research to create smart solutions that address real-world challenges.',
         backHome: 'BACK TO HOME',
       },
       postgrad: {
-        title: 'Postgraduate Studies',
+        title: ' Studies',
         degree: {
           label: 'DEGREE',
-          value: 'M.Sc. in Human-Computer Interaction',
-          uni: 'Stanford University · 2021—2023',
+          value: 'I hold a bachelor is degree and am currently pursuing a master is degree in Computer Information Systems (CIS). My current research focuses on integrating artificial intelligence technologies into the education sector to develop intelligent and interactive learning experiences.',
+          uni: 'Ahgaff University · 2023-2024',
         },
         focus: {
           label: 'FOCUS AREA',
-          value: 'Adaptive Interface Systems',
+          value: 'artificial intelligence field',
           gpa: 'GPA: 4.0 / 4.0 · Dean\'s List',
         },
       },
@@ -48,8 +48,8 @@ export const translations = {
       },
       thesis: {
         badge: "MASTER'S THESIS DISTINCTION",
-        title: 'Neuro-Visual Synthesis in VR Habitats',
-        desc: '"Examining the correlation between biometric feedback and dynamic lighting shifts in virtual coworking environments."',
+        title: 'Q-RAGA Question-Specific Rubrics in a Retrieval Augmented LLM Model for Automated Assessment and Feedback in Programming Education',
+        desc: '"Assessment and feedback in education using artificial intelligence"',
         grade: '98/100',
         gradeLabel: 'GRADE',
         rank: 'Top 1%',
@@ -58,7 +58,7 @@ export const translations = {
       teaching: {
         badge: 'EDUCATIONAL IMPACT',
         title: 'Teaching Portfolio',
-        subtitle: 'Mentoring the next generation of researchers through hands-on labs and theoretical foundations.',
+        subtitle: '',
         courses: [
           {
             title: 'CS402: Adv. UI Systems',
@@ -207,15 +207,15 @@ export const translations = {
         backHome: 'العودة للرئيسية',
       },
       postgrad: {
-        title: 'الدراسات العليا',
+        title: 'الدراسات ',
         degree: {
           label: 'الدرجة العلمية',
-          value: 'ماجستير العلوم في التفاعل بين الإنسان والحاسوب',
-          uni: 'جامعة ستانفورد · 2021—2023',
+          value: 'حاصل على درجة البكالوريوس، ومستمر حالياً في مسيرتي الأكاديمية كطالب ماجستير في تخصص نظم المعلومات الحاسوبية (CIS). يتركز شغفي واهتمامي ماجستير  البحثي الحالي حول دمج تقنيات الذكاء الاصطناعي في قطاع التعليم لتطوير تجارب تعلم ذكية وتفاعلية.',
+          uni: 'جامعة الأحقاف · 2023-2024',
         },
         focus: {
           label: 'مجال التركيز',
-          value: 'أنظمة الواجهة التكيفية',
+          value: 'مجال الذكاء الاصطناعية',
           gpa: 'المعدل: 4.0 / 4.0 · قائمة العميد',
         },
       },
@@ -236,8 +236,8 @@ export const translations = {
       },
       thesis: {
         badge: "تميز أطروحة الماجستير",
-        title: 'التخليق العصبي البصري في بيئات الواقع الافتراضي',
-        desc: '"فحص الارتباط بين التعليقات الحيوية وتحولات الإضاءة الديناميكية في بيئات العمل المشتركة الافتراضية."',
+        title: 'معايير تقييم خاصة بالأسئلة في نموذج LLM مُعزز بالاسترجاع للتقييم الآلي والتغذية الراجعة في تعليم البرمجة (Q-RAGA) الواقع الافتراضي',
+        desc: '"التقييم و التغذية الراجعة في التعليم باستخدام الذكاء الاصطناعي"',
         grade: '98/100',
         gradeLabel: 'الدرجة',
         rank: 'أعلى 1%',
@@ -246,7 +246,7 @@ export const translations = {
       teaching: {
         badge: 'الأثر التعليمي',
         title: 'سجل التدريس',
-        subtitle: 'توجيه الجيل القادم من الباحثين من خلال المختبرات العملية والأسس النظرية.',
+        subtitle: '',
         courses: [
           {
             title: 'CS402: أنظمة واجهة المستخدم المتقدمة',
@@ -273,27 +273,33 @@ export const translations = {
           { title: 'تطبيقات ناسا للفضاء', value: 'أفضل 5 مرشحين', year: '2021' },
           { title: 'جائزة الابتكار', value: 'الجائزة الكبرى', year: '2020' },
         ],
-      },
+      }, 
       speaking: {
         title: 'المؤتمرات وورش العمل',
         items: [
           {
-            tag: 'WEBSUMMIT 2023',
-            title: 'أخلاقيات الذكاء الاصطناعي في التصميم',
-            desc: 'متحدث رئيسي · لشبونة، البرتغال',
-            image: 'https://picsum.photos/seed/speak1/400/250',
+            tag: 'UI/UX',
+            title: 'أساسيات تصميم واجهات وتجربة المستخدم الرقمية',
+            desc: 'عملي تفاعلية لتصميم المنتجات',
+            image: '/public/picsum.webp',
           },
           {
-            tag: 'UX LONDON 2022',
-            title: 'النماذج الأولية لسوائل الحركة',
-            desc: 'مدير ماستر كلاس · لندن، المملكة المتحدة',
-            image: 'https://picsum.photos/seed/speak2/400/250',
+            tag: 'OOP',   
+            title: 'المفاهيم المتقدمة للبرمجة كائنية التوجه (OOP)',
+            desc: 'شرح التجريد، التعددية، والوراثة البرمجية',
+            image: '/public/OOP.jpg',
           },
           {
-            tag: 'AWWWARDS CONF',
-            title: 'مستقبل واجهة المستخدم المكانية',
-            desc: 'عضو لجنة مناقشة · أمستردام',
-            image: 'https://picsum.photos/seed/speak3/400/250',
+            tag: 'COMPUTER SCIENCE FUNDAMENTALS',
+            title: 'مدخل إلى البرمجة وهيكلة البيانات باستخدام ++C',
+            desc: 'بناء التفكير المنطقي والخوارزميات للمبتدئين',
+            image: '/public/++C.png',
+          },
+          {
+            tag: 'CMS Content Management System',
+            title: 'بناء المواقع الديناميكية وتطوير أنظمة CMS',
+            desc: 'تطبيقات عملية على WordPress CMS',
+            image: '/public/CMS.webp',
           },
         ],
       },
